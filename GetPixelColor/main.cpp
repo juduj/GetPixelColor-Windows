@@ -4,7 +4,7 @@
 
 int main()
 {
-	HDC hdc = GetDC(NULL);
+	HDC hdc = GetDC(NULL); //This is what gets us our entire window
 	POINT p;
 	COLORREF color;
 
